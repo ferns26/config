@@ -2,13 +2,13 @@ greeting: 안녕하세요.
 
 ---
 spring:
-    profile: development
+    profiles: development
 
 greeting: 개발서버에 오신걸 환영합니다.
 
 
 ---
 spring:
-    profile: production
+    profiles: production
 
 greeting: 운영서버에 오신걸 환영합니다.
