@@ -4,11 +4,11 @@ greeting: 안녕하세요.
 spring:
     profiles: development
 
-greeting: 개발서버에 오신걸 환영합니다.
+greeting: 사용자 개발서버에 오신걸 환영합니다.
 
 
 ---
 spring:
     profiles: production
 
-greeting: 운영서버에 오신걸 환영합니다.
+greeting: 사용자 운영서버에 오신걸 환영합니다.
