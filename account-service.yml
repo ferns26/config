@@ -1,0 +1,17 @@
+env:
+    greeting: 안녕하세요.
+
+---
+spring:
+    profiles: development
+
+env:
+    greeting: 사용자 계정 개발서버에 오신걸 환영합니다.
+
+
+---
+spring:
+    profiles: production
+
+env:
+    greeting: 사용자 계정 운영서버에 오신걸 환영합니다.
