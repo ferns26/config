@@ -2,7 +2,7 @@ jwt:
   certificate:
     store:
       file: classpath:/certificate/server.jks
-      password: zeronine!@#$120801
+      password: zeronine120801!
     key:
       alias: zeronineauthserver
-      password: zeronine!@#$120801
+      password: zeronine120801!
